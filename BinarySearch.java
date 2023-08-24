@@ -26,7 +26,7 @@ class BinarySearch{
             list[iterator] = obj.nextInt();
         }
 
-        System.out.println("Enter the key to search :");
+        System.out.println("Enter the key: ");
         int key = obj.nextInt();
         int low = 0;
         int high = list.length -1;
